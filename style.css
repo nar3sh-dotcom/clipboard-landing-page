@@ -69,12 +69,32 @@ p{
     padding-top:13px;
     font-weight:600;
 }
+img{
+    display:grid;
+    width:100%;
+}
 .main a{
     padding: 2rem 0;
 }
 .sub-main{
     padding-top:6rem;
 }
+.sub-main p{
+    padding-bottom:4rem;
+}
+.content img{
+    padding-bottom:2rem;
+}
+.content p{
+    padding-bottom:3rem;
+}
+.content-1{
+    padding-top:6rem;
+}
+.content-1 img{
+    padding-bottom:6rem;
+}
+
 
 
 
