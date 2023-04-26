@@ -37,7 +37,11 @@ header,
 .sub-main,
 .content,
 .content-1,
-.content-2{
+.content-2,
+.clipboard,
+.company-logos,
+footer
+{
     padding:0 2rem;
 }
 h1{
@@ -93,6 +97,57 @@ img{
 }
 .content-1 img{
     padding-bottom:6rem;
+}
+
+.icon-details{
+    padding-top:4rem;
+    
+}
+.icon-details img{
+    width:100px;  
+    padding-bottom:1.5rem;
+    align-content: center;
+    display: block;
+    margin:0 auto;
+}
+.company-logos img{
+    width:100px;
+    display: block;
+    margin:0 auto;
+    padding:1.5rem 0;
+}
+.company-logos{
+    padding-bottom:6rem;
+}
+.clipboard{
+    padding-bottom:6rem;
+}
+footer{
+    background-color:lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem ;
+}
+footer li{
+    padding:.5rem 0;
+    list-style-type:none;
+    color:#585656;
+}
+
+footer img{
+    width:50px;
+    padding-bottom:1rem;
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.icon a{
+    padding:0 20px;
+}
+.icon a img{
+    width:35px;
 }
 
 
