@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --font-family: 'Bai Jamjuree', sans-serif;
+
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+}
+body{
+    font-family:var(--font-family);
+}
+
+a{
+    text-decoration: none;
+}
+.header-logo{
+    display:block;
+    margin:auto;
+    width:130px;
+    padding-top:2.5rem;
+    padding-bottom:3.5rem;
+}
+header{
+    background: url(bg-header-mobile.png);
+    background-size:cover;
+}
+header,
+.main,
+.sub-main,
+.content,
+.content-1,
+.content-2{
+    padding:0 2rem;
+}
+h1{
+    color:var(--Dark-Grayish-Blue);
+    text-align: center;
+    padding-bottom:20px;
+}
+p{
+    color:var(--Grayish-Blue);
+    line-height:25px;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom:25px;
+}
+
+.btn{
+    background-color:var(--Strong-Cyan);
+    color:#fff;
+    height:50px;
+    border-radius:20px;
+    padding-top:13px;
+    font-weight:600;
+}
+.btn-1{
+    background-color:var(--Light-Blue);
+    color:#fff;
+    height:50px;
+    border-radius:20px;
+    padding-top:13px;
+    font-weight:600;
+}
+.main a{
+    padding: 2rem 0;
+}
+.sub-main{
+    padding-top:6rem;
+}
+
+
+
+
