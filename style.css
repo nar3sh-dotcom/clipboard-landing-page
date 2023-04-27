@@ -59,7 +59,6 @@ p{
 
 
 
-
 img{
     display:grid;
     width:100%;
@@ -277,49 +276,78 @@ footer li a:hover{
     
     header{
         background: url(bg-header-desktop.png);
-    }
-    .buttons-1{
-        display: flex;
-        flex-direction: row;
-        gap:1rem;
-        align-items: center;
-        justify-content: center;
         
     }
-    .btn-2{
-        background-color: var(--Strong-Cyan);
-        border-radius:25px;
-        padding:15px 35px;
-        font-weight: 500;
-        color:#fff;
-    }
-    
     .main p{
-        padding-left:16rem;
-        padding-right:16rem;
+        padding :0 16rem 2rem 16rem;
+    }
+    .button{
+        text-align: center;
+        
     }
     
+    .button a{
+        padding:10px 15px;
+    }
+
+    .content{
+        display:flex;
+        flex-direction: row;
+    }
     
-    
-   
-   
-  
-   
+    .left{
+        padding-top:6rem;
+    }
+    .item{
+        float:right;
+        padding-left:3rem;
+    }
+    .item h1{
+        padding-bottom:.5rem;
+    }
+    .item h1,
+    .item p{
+        text-align: left;
+        padding-right:2rem;
+    }
+
+    .item p{
+        font-size:15px;
+    }  
 }
-
-
-
-
-
-
-
-
-
 
 
 /*media query ends*/
 
-
+/*media query of mobile*/
+@media only screen and (max-width: 600px) {
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+    
+    .btn{
+        background-color: var(--Strong-Cyan);
+        border-radius: 20px;
+        box-shadow: 0 10px 30px -5px var(--Strong-Cyan);
+        
+    }
+    .btn-1{
+        background-color: var(--Light-Blue);
+        border-radius: 20px;
+        box-shadow: 0 10px 30px -5px var(--Light-Blue);
+        
+    }
+    .button a{
+        padding:5px 4rem;
+        color:#fff;
+        font-weight:500;
+        font-size: 1.5rem;
+    }
+}
+/*media query ends*/
 
 
 
